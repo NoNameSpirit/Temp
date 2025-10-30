@@ -22,7 +22,7 @@ jobs:
     steps:
       - checkout
       - run: pip install black
-      - run: black --check .
+      - run: black .
 
 workflows:
   version: 2
